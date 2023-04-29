@@ -9,7 +9,7 @@ mathjax: true
 navigation:
   - {title: Mail, icon: envelope, url: "mailto:trevormarburger@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/trevormarburger/"}
-  - {title: LinkedIn, icon: linkedin, url: "https://linkedin.com/in/trevormarburger"}
+  - {title: LinkedIn, icon: in, url: "https://linkedin.com/in/trevormarburger"}
   - {title: Feed, icon: rss, url: "/feed.xml"}
 
 remote_theme: niklasbuschmann/contrast

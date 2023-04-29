@@ -1,7 +1,7 @@
 ---
-title: "Least squares and least absolute deviations"
-date: 2021-02-10
-description: A comparison between two methods of linear regression
+title: "Test Post"
+date: 2023-04-29
+description: Test Post
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

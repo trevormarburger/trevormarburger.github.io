@@ -1,12 +1,24 @@
+# Core Attrs
 title: "Trevor Marburger"
 author: "Trevor Marburger"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
 minimal: true
 mathjax: true
 
+# Styles
+show_sidebar: true
+
+# Links
 navigation:
+  - {title: Mail, icon: envelope, url: "mailto:trevormarburger@gmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/trevormarburger/"}
+  - {title: LinkedIn, icon: linkedin-in, url: "https://linkedin.com/in/trevormarburger"}
+  - {title: Feed, icon: rss, url: "/feed.xml"}
+
+external:
   - {title: Mail, icon: envelope, url: "mailto:trevormarburger@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/trevormarburger/"}
   - {title: LinkedIn, icon: linkedin-in, url: "https://linkedin.com/in/trevormarburger"}

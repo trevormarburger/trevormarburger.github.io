@@ -30,7 +30,7 @@ url: "https://trevormarburger.github.io" # the base hostname & protocol for your
 # github_username:  jekyll
 
 # Build settings
-theme: minima
+theme: alembic
 plugins:
   - jekyll-feed
 

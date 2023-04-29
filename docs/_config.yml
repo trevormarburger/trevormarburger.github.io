@@ -8,10 +8,8 @@ date_format: "%B %d, %Y"
 minimal: true
 mathjax: true
 
-# Styles
-show_sidebar: true
-
-external:
+# Links
+navigation:
   - {title: Mail, icon: envelope, url: "mailto:trevormarburger@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/trevormarburger/"}
   - {title: LinkedIn, icon: linkedin-in, url: "https://linkedin.com/in/trevormarburger"}

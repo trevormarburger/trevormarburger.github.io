@@ -11,3 +11,5 @@ Test Post #2
 def double_func(n: float) -> float:
     return n*2
 {% endhighlight %}
+
+<button>Test</button>

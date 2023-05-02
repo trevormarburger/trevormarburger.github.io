@@ -4,6 +4,8 @@
     {%- assign date_format = site.date_format | default: "%B %d, %Y" -%}
     <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: date_format }}</time>
     {% for tag in include.post.tags %}
-        <span class="badge bg-dark">tag</span>
+        <div>
+            <span class="badge bg-dark">tag</span>
+        </div>
     {% endfor %}
 </header>

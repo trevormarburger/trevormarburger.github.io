@@ -7,7 +7,7 @@ layout: post
 
 Test Post #2
 
-{% highlight python3 %}
+{% highlight python %}
 def double_func(n: float) -> float:
     return n*2
 {% endhighlight %}

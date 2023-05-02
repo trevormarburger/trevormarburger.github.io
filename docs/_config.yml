@@ -15,6 +15,7 @@ navigation:
   - {title: Github, icon: github, url: "https://github.com/trevormarburger/"}
   - {title: LinkedIn, icon: linkedin-in, url: "https://linkedin.com/in/trevormarburger"}
   - {title: Feed, icon: rss, url: "/feed.xml"}
+  - {title: Posts, icon: book, url: "#"}
 
 remote_theme: niklasbuschmann/contrast
 

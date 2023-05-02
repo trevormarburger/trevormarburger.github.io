@@ -3,7 +3,7 @@
     <ul class="archive">
       {% for post in site.posts %}
       <li>
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y / %m / %d" }}</time>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y / %b / %d" }}</time>
         <span>&#8212;</span>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </li>

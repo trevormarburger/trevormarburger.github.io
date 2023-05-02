@@ -20,8 +20,10 @@
     {%- assign date_format = site.date_format | default: "%B %d, %Y" -%}
     <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: date_format }}</time>
     <div>
-        {% for tag in include.post.tags %}
-            <span class="badge bg-dark">{{ tag }}</span>
-        {% endfor %}
+        {% if include.post.tags %}
+            {% for tag in include.post.tags %}
+                <span class="badge bg-dark">{{ tag }}</span>
+            {% endfor %}
+        {% endif %}
     </div>
 </header>

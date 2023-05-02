@@ -1,4 +1,14 @@
 <article>
+  <style type="text/css">
+    ul {
+      list-style: none !important;
+    }
+    
+    ul li:before {
+      content: "\00BB \0020" !important;
+    }
+    
+    </style>
     <header><h1>{{ include.title | default: page.title }}</h1></header>
     <ul class="archive">
       {% for post in site.posts %}

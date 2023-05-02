@@ -3,7 +3,7 @@ title: "Trevor Marburger"
 author: "Trevor Marburger"
 permalink: /:title/
 lang: "en"
-show_excerpts: true
+show_excerpts: false
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 minimal: false
@@ -11,7 +11,7 @@ mathjax: true
 
 # Links
 navigation:
-  - {title: Posts, icon: book, url: "/posts.html"}
+  # - {title: Posts, icon: book, url: "/posts.html"}
   - {title: Mail, icon: envelope, url: "mailto:trevormarburger@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/trevormarburger/"}
   - {title: LinkedIn, icon: linkedin-in, url: "https://linkedin.com/in/trevormarburger"}

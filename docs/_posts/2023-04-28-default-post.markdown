@@ -3,7 +3,7 @@ title: "Test Post"
 date: 2023-04-28
 description: Test Post
 layout: post
-tags: [blog, test]
+# tags: [blog, test]
 ---
 
 Test Post #2

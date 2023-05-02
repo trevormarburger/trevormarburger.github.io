@@ -21,7 +21,7 @@
     <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: date_format }}</time>
     {% for tag in include.post.tags %}
         <div>
-            <span class="badge bg-dark">tag</span>
+            <span class="badge bg-dark">{{ tag }}</span>
         </div>
     {% endfor %}
 </header>

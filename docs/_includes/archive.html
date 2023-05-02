@@ -1,16 +1,17 @@
 <article>
   <style type="text/css">
-    ul {
-      list-style: none !important;
+    .arrow-list {
+      list-style-type: none; /* remove default bullet point */
     }
-    
-    ul li:before {
-      content: "&#8250;&nbsp;" !important;
+
+    .arrow-list li:before {
+      content: "\00BB"; /* display right-facing arrow */
+      margin-right: 10px; /* add some space between the arrow and the text */
     }
     
     </style>
     <header><h1>{{ include.title | default: page.title }}</h1></header>
-    <ul class="archive">
+    <ul class="archive arrow-list">
       {% for post in site.posts %}
       <li>
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>

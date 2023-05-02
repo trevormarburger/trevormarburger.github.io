@@ -3,6 +3,7 @@ title: "Trevor Marburger"
 author: "Trevor Marburger"
 permalink: /:title/
 lang: "en"
+show_excerpts: true
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 minimal: false

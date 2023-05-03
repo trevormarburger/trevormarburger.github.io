@@ -1,15 +1,4 @@
 <article>
-  <style type="text/css">
-    .arrow-list {
-      list-style-type: none; /* remove default bullet point */
-    }
-
-    .arrow-list li:before {
-      content: "\203A"; /* display right-facing arrow */
-      margin-right: 10px; /* add some space between the arrow and the text */
-    }
-    
-    </style>
     <header><h1>{{ include.title | default: page.title }}</h1></header>
     <ul class="archive arrow-list">
       {% for post in site.posts %}
@@ -17,6 +6,11 @@
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
         <span>&#8212;</span>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% if post.tags %}
+          {% for tag in post.tags %}
+            <span class="badge bg-dark">{{ tag }}</span>
+          {% endfor %}
+        {% endif %}
       </li>
       {% endfor %}
     </ul>

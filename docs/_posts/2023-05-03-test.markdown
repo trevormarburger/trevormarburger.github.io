@@ -6,7 +6,7 @@ layout: post
 tags: [test]
 ---
 
-{% highlight hcl %}
+{% highlight terraform %}
 variable "availability_zone_names" {
   type    = list(string)
   default = ["us-west-1a"]

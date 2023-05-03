@@ -1,3 +1,4 @@
+{% assign include_tags = false %}
 <article>
     <header><h1>{{ include.title | default: page.title }}</h1></header>
     <ul class="archive arrow-list">
@@ -6,7 +7,7 @@
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
         <span>&#8212;</span>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        {% if post.tags %}
+        {% if post.tags and include_tags %}
           {% for tag in post.tags %}
             <span class="badge bg-dark">{{ tag }}</span>
           {% endfor %}

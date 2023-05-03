@@ -8,7 +8,7 @@
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         {% if post.tags %}
           {% for tag in post.tags %}
-            <span class="badge bg-secondary">{{ tag }}</span>
+            <span><p class="badge bg-secondary">{{ tag }}</p></span>
           {% endfor %}
         {% endif %}
       </li>

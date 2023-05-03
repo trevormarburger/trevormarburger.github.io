@@ -1,0 +1,14 @@
+---
+title: "Test"
+date: 2023-05-03
+description: Test
+layout: post
+tags: [test]
+---
+
+{% highlight hcl %}
+variable "availability_zone_names" {
+  type    = list(string)
+  default = ["us-west-1a"]
+}
+{% endhighlight %}

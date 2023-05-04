@@ -11,5 +11,5 @@ Welcome to my personal site &#8212; posts coming soon.
 
 <div class="picture-frame">
     <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/043/243/419.gif">
-    <em>So much empty...</em>
+    <p>So much empty...</p>
 </div>

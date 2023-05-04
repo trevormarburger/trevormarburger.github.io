@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "About"
-permalink: "/about/""
+title: "About Me"
+permalink: "/about/"
+description: About Me
 ---
 
 Test

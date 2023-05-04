@@ -5,4 +5,4 @@ layout: post
 permalink: "/about/"
 ---
 
-Test
+Coming Soon

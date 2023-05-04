@@ -1,8 +1,8 @@
 ---
-layout: post
 title: "About Me"
+description: "About Me"
+layout: post
 permalink: "/about/"
-description: About Me
 ---
 
 Test

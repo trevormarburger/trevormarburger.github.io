@@ -9,7 +9,5 @@ tags: []
 <h2>&#x1F3D7;</h2>
 Welcome to my personal site &#8212; posts coming soon.
 
-<div class="picture-frame">
-    <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/043/243/419.gif">
-    <p>So much empty...</p>
-</div>
+<!-- <div class="picture-frame">
+</div> -->

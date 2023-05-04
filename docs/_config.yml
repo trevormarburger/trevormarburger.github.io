@@ -12,6 +12,7 @@ mathjax: true
 # Links
 navigation:
   # - {title: Posts, icon: book, url: "/posts.html"}
+  - {title: Info, icon: info, url: "#"}
   - {title: Mail, icon: envelope, url: "mailto:trevormarburger@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/trevormarburger/"}
   - {title: LinkedIn, icon: linkedin-in, url: "https://linkedin.com/in/trevormarburger"}

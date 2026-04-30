@@ -1,0 +1,20 @@
+# Setup
+title:               Trevor Marburger
+tagline:             ''
+description:         ''
+url:                 https://trevormarburger.github.io
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Trevor Marburger
+  url:               https://trevormarburger.github.io
+  email:             info@example.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed

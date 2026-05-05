@@ -11,14 +11,14 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-
+    -
     <span class="post-date">
       {{ post.date | date_to_string }}
       {% assign words = post.content | number_of_words %}
       {% if words < 360 %}
-        &middot; 1 min read
+        - 1 min read
       {% else %}
-        &middot; {{ words | divided_by: 180 }} min read
+        - {{ words | divided_by: 180 }} min read
       {% endif %}
     </span>
   </div>

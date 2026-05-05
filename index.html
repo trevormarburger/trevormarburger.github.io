@@ -6,20 +6,22 @@ title: Home
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | absolute_url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-    <span class="post-date">
-      | {{ post.date | date_to_string }}
-      {% assign words = post.content | number_of_words %}
-      {% if words < 360 %}
-        | 1 min read
-      {% else %}
-        | {{ words | divided_by: 180 }} min read
-      {% endif %}
-    </span>
+    <header class="post-header">
+      <h1 class="post-title">
+        <a href="{{ post.url | absolute_url }}">
+          {{ post.title }}
+        </a>
+      </h1>
+      <span class="post-date">
+        | {{ post.date | date_to_string }}
+        {% assign words = post.content | number_of_words %}
+        {% if words < 360 %}
+          | 1 min read
+        {% else %}
+          | {{ words | divided_by: 180 }} min read
+        {% endif %}
+      </span>
+    </header>
   </div>
   {% endfor %}
 </div>

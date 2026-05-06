@@ -4,7 +4,7 @@ tagline:             ''
 description:         ''
 url:                 https://trevormarburger.github.io
 baseurl:             ''
-paginate:            5
+paginate:            20
 permalink:           pretty
 
 # About/contact
